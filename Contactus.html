@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="navbar.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="myname">
+            <nav>
+                <a href="index.html">
+                    <span class="oneblue">I</span>mran
+                </a>
+            </nav>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="about.html"><span class="oneblue">A</span>bout</a></li>
+                    <li><a href="Service.html"><span class="oneblue">S</span>ervices</a></li>
+                    <li><a href="projects.html"><span class="oneblue">P</span>rojects</a></li>
+                    <li><a href="Contactus.html"><span class="oneblue">C</span>ontact</a></li>
+                </ul>
+                <ul>
+                    <li class="hideonmobile"><a href="about.html"><span class="oneblue">A</span>bout</a></li>
+                    <li class="hideonmobile"><a href="Service.html"><span class="oneblue">S</span>ervices</a></li>
+                    <li class="hideonmobile"><a href="projects.html"><span class="oneblue">P</span>rojects</a></li>
+                    <li class="hideonmobile"><a href="Contactus.html"><span class="oneblue">C</span>ontact</a></li>
+                    <li class="menubutton" onclick="toggleSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px " viewBox="0 -960 960 960" width="30px" fill=""><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" /></svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="contactdetail">
+        <div class="content">
+            <div class="form-container">
+                <h1>Inquiry Form</h1>
+                <form action="submit_inquiry.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="details">Details:</label>
+                        <textarea id="details" name="details" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contactus">
+                <h1>Contact Us</h1>
+                <div class="icontitle">
+                    <h4 class="fa fa-envelope">
+                        <h5>igul.emmo@gmail.com</h5>
+                    </h4>
+                </div>
+                <div class="icontitle">
+                    <h4 class="fa fa-phone">
+                        <h5> PK (+92) 300 3093166</h5>
+                    </h4>
+                </div>
+                <div class="socialtitle">
+                    <h3>Connect us on social</h3>
+                </div>
+                <div class="social">
+                    </a>
+                    <a href="">
+                        <p class="fa fa-youtube-play" style="color: #FF0000"></p>
+                    </a>
+                    <a href="">
+                        <p class="fa fa-linkedin" style="color: #0072b1;"></p>
+                    </a>
+                    <a href="">
+                        <p class="fa fa-whatsapp" style="color: #25D366;"></p>
+                    </a>
+                    <a href="">
+                        <p class="fa fa-facebook-f" style="color: #1877F2;"></p>
+                    </a>
+                    <a href="">
+                        <p class="fa fa-instagram" style="color: #FCAF45;"></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

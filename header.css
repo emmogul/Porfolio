@@ -1,0 +1,366 @@
+body {
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 5% 0% 5%;
+    height: 8vw;
+}
+
+.myname {
+    height: 100%;
+    width: 20%;
+}
+
+.myname a {
+    font-size: x-large;
+}
+
+nav {
+    align-content: center;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 1vw;
+}
+
+nav a {
+    height: 10%;
+    border: 1.5px solid black;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 500;
+    padding: 12px 22px;
+    font-size: larger;
+    border: 1px solid #230c81;
+    margin: 10px;
+    font-variant: small-caps;
+    font-size: larger;
+}
+
+nav a:hover {
+    border: 1px solid white;
+    color: white;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: inset 2px 2px 5px rgb(118, 114, 126);
+}
+
+.oneblue {
+    color: rgba(17, 17, 150, 0.868);
+    font-size: x-large;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 501;
+}
+
+.oneblueh {
+    color: rgba(17, 17, 150, 0.868);
+    font-family: "Bona Nova SC", serif;
+    font-weight: 501;
+}
+
+.sidebar {
+    padding: 40px;
+    padding-bottom: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 60vh;
+    width: 300px;
+    z-index: 999;
+    background-color: rgba(27, 8, 8, 0.041);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgb(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: start;
+    display: none;
+    margin: 0px;
+    border-bottom: 100vw;
+}
+
+.menu-icon {
+    display: none;
+    color: black;
+    margin: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.menubutton {
+    display: none;
+}
+
+@media screen and (min-width: 275px) and (max-width: 724px) {
+    .hideonmobile {
+        display: none;
+    }
+    .menubutton {
+        display: block;
+    }
+    .firstone {
+        font-size: x-large;
+        line-height: 1.5;
+        color: red;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 275px) and (max-width: 425px) {
+    .header {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+    nav {
+        height: 100%;
+        width: 100%;
+    }
+    .myname a {
+        font-size: 7vw;
+    }
+    nav a {
+        height: 12vw;
+        text-decoration: none;
+        color: black;
+        font-family: "Bona Nova SC", serif;
+        font-weight: 500;
+        padding: 0px 0px;
+        font-size: larger;
+        margin: 20px;
+        font-variant: small-caps;
+        font-size: 5vw;
+        border: none;
+    }
+    nav ul {
+        margin: 0px;
+    }
+    nav li {
+        margin: 3vw;
+        height: 7vw;
+    }
+    nav a:hover {
+        border-radius: 2vw;
+    }
+    .oneblue {
+        font-size: 7vw;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 524px) {
+    .body {
+        margin: 2px;
+    }
+    .header {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+    nav {
+        height: 100%;
+        width: 100%;
+    }
+    .myname a {
+        font-size: xx-large;
+    }
+    nav a {
+        height: 12vw;
+        text-decoration: none;
+        color: black;
+        font-family: "Bona Nova SC", serif;
+        font-weight: 500;
+        padding: 0px 0px;
+        font-size: x-large;
+        margin: 20px;
+        font-variant: small-caps;
+        font-size: 4vw;
+        border: none;
+    }
+    nav li {
+        margin: 2.5vw 4vw;
+        height: 7vw;
+    }
+    nav ul {
+        margin: 0px;
+    }
+    nav a:hover {
+        nav ul {
+            margin: 0px;
+        }
+        border-radius: 2vw;
+    }
+    .oneblue {
+        font-size: 7vw;
+    }
+}
+
+@media screen and (min-width: 525px) and (max-width: 624px) {
+    .body {
+        margin: 2px;
+    }
+    .header {
+        margin-top: 23px;
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+    nav {
+        height: 100%;
+        width: 100%;
+    }
+    nav a {
+        height: 12vw;
+        text-decoration: none;
+        color: black;
+        font-family: "Bona Nova SC", serif;
+        font-weight: 500;
+        padding: 0px 0px;
+        font-size: 2vw;
+        margin: 20px;
+        font-variant: small-caps;
+        font-size: 4vw;
+        border: none;
+    }
+    .myname a {
+        font-size: 35px;
+    }
+    nav li {
+        margin: 2.5vw 5vw;
+        height: 7vw;
+    }
+    nav ul {
+        margin: 0px;
+    }
+    nav a:hover {
+        border-radius: 2vw;
+    }
+    .oneblue {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (min-width: 625px) and (max-width: 724px) {
+    .body {
+        margin: 2px;
+    }
+    .header {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+    nav {
+        margin-top: 10%;
+        height: 100%;
+        width: 100%;
+    }
+    nav a {
+        height: 12vw;
+        text-decoration: none;
+        color: black;
+        font-family: "Bona Nova SC", serif;
+        font-weight: 500;
+        padding: 0px 0px;
+        font-size: 2vw;
+        margin: 20px;
+        font-variant: small-caps;
+        font-size: 3vw;
+        border: none;
+    }
+    .myname a {
+        font-size: 35px;
+    }
+    nav li {
+        margin: 2vw 3vw;
+        height: 7vw;
+    }
+    nav ul {
+        margin: 0px;
+    }
+    nav a:hover {
+        border-radius: 2vw;
+    }
+    .oneblue {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 725px) and (max-width: 1024px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin: 3% 5% 0% 5%;
+        height: 75px;
+    }
+    .myname a {
+        font-size: x-large;
+    }
+    nav {
+        align-content: center;
+        height: 100%;
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        padding: 1vw;
+    }
+    nav a {
+        height: 10%;
+        border: 1.5px solid black;
+        border-radius: 12px;
+        text-decoration: none;
+        color: black;
+        font-family: "Bona Nova SC", serif;
+        font-weight: 500;
+        padding: 12px 22px;
+        font-size: larger;
+        border: 1px solid #230c81;
+        margin: 10px;
+        font-variant: small-caps;
+        font-size: larger;
+    }
+    .oneblue {
+        color: rgba(17, 17, 150, 0.868);
+        font-size: x-large;
+        font-family: "Bona Nova SC", serif;
+        font-weight: 501;
+    }
+    .oneblueh {
+        color: rgba(17, 17, 150, 0.868);
+        font-family: "Bona Nova SC", serif;
+        font-weight: 501;
+    }
+    nav li {
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 500px) {}
+
+
+/* 
+ justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+        align-content: center; */

@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+}
+
+.aboutus {
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.infophoto img {
+    height: 150px;
+}
+
+.information,
+.education,
+.experience {
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    color: #230c81;
+    font-size: large;
+    height: 700px;
+}
+
+.myinfo {
+    width: 350px;
+    height: 520px;
+    border: 1px solid #230c81;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 10px 1px rgba(45, 19, 97, 0.6);
+}
+
+.myinfo h1 {
+    font-family: "Philosopher", sans-serif;
+}
+
+.myedu {
+    box-shadow: inset 1px 1px 10px 1px rgba(45, 19, 97, 0.6);
+    width: 350px;
+    height: 520px;
+    border: 1px solid #230c81;
+    border-radius: 20px;
+}
+
+.myexp {
+    box-shadow: inset 1px 1px 10px 1px rgba(45, 19, 97, 0.6);
+    width: 350px;
+    height: 520px;
+    border: 1px solid #230c81;
+    border-radius: 20px;
+}
+
+.myinfo img {
+    margin-top: 30px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.table {
+    margin: 0px;
+    padding: 10px;
+    border-radius: 15px;
+    height: 35%;
+    border: 0px solid #230c81;
+}
+
+.table p {
+    margin: 0px;
+    color: black;
+    padding: 0px 15px;
+    font-family: "Philosopher", sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.masters p {
+    color: black;
+    margin: 40px 15px 15px 20px;
+    text-align: left;
+    font-family: "Philosopher", sans-serif;
+    font-size: large;
+    border: 1px solid #230c81;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.university p {
+    margin: 10px 20px 20px 20px;
+    text-align: right;
+    font-family: "Philosopher", sans-serif;
+    font-size: large;
+    font-style: italic;
+}
+
+.skills {
+    font-family: "Philosopher", sans-serif;
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.skills ul {
+    font-size: 18px;
+    padding: 2px;
+    margin: 20PX 20px;
+}
+
+.cvcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cv-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0056b3;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cv-button:hover {
+    background-color: #375c83;
+    color: azure;
+}
+
+.cvcontainer1 {
+    display: none;
+}
+
+@media screen and (min-width: 275px) and (max-width: 425px) {
+    .aboutus {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0% 20% 0%;
+        /* Reverses the order for small screens */
+    }
+    .myedu,
+    .myexp,
+    .myinfo {
+        align-content: center;
+        width: 90%;
+        margin: 0px 5%;
+        font-size: small;
+    }
+    .myedu p {
+        font-size: medium;
+    }
+    .table p {
+        font-size: medium;
+    }
+    .myinfo img {
+        margin-top: 30px;
+        height: 150px;
+        border-radius: 100px;
+    }
+    .information,
+    .education,
+    .experience {
+        text-align: center;
+        font-family: "Philosopher", sans-serif;
+        color: #230c81;
+        font-size: small;
+        height: 600px;
+    }
+    .skills ul {
+        font-size: medium;
+    }
+    .cvcontainer {
+        display: none;
+    }
+    .cvcontainer1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 625px) {
+    .aboutus {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0% 20% 0%;
+        /* Reverses the order for small screens */
+    }
+    .myedu,
+    .myexp,
+    .myinfo {
+        align-content: center;
+        width: 70%;
+        margin: 0px 15%;
+        font-size: small;
+    }
+    .myedu p {
+        font-size: medium;
+    }
+    .table p {
+        font-size: medium;
+    }
+    .myinfo img {
+        margin-top: 30px;
+        height: 150px;
+        border-radius: 100px;
+    }
+    .information,
+    .education,
+    .experience {
+        text-align: center;
+        font-family: "Philosopher", sans-serif;
+        color: #230c81;
+        font-size: small;
+        height: 600px;
+    }
+    .skills ul {
+        font-size: medium;
+    }
+    .cvcontainer {
+        display: none;
+    }
+    .cvcontainer1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 625px) and (max-width: 788px) {
+    .aboutus {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6vw;
+        margin-bottom: 20vw;
+        /* Reverses the order for small screens */
+    }
+    .myedu,
+    .myexp,
+    .myinfo {
+        align-content: center;
+        width: 420px;
+        height: 500px;
+        font-size: medium;
+    }
+    .myedu p {
+        font-size: large;
+    }
+    .table p {
+        padding: 20px;
+        font-size: large;
+    }
+    .myinfo img {
+        margin-top: 30px;
+        height: 150px;
+        border-radius: 100px;
+    }
+    .information,
+    .education,
+    .experience {
+        text-align: center;
+        font-family: "Philosopher", sans-serif;
+        color: #230c81;
+        font-size: medium;
+        height: 600px;
+    }
+    .skills ul {
+        font-size: large;
+    }
+    .cvcontainer {
+        display: none;
+    }
+    .cvcontainer1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* for tablet pc small */
+
+@media screen and (min-width: 789px) and (max-width: 950px) {
+    .aboutus {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vw;
+        margin-bottom: 20vw;
+        /* Reverses the order for small screens */
+    }
+    .myedu,
+    .myexp,
+    .myinfo {
+        align-content: center;
+        width: 420px;
+        height: 500px;
+        font-size: medium;
+    }
+    .myedu p {
+        font-size: large;
+    }
+    .table p {
+        padding: 20px;
+        font-size: large;
+    }
+    .myinfo img {
+        margin-top: 30px;
+        height: 150px;
+        border-radius: 100px;
+    }
+    .information,
+    .education,
+    .experience {
+        text-align: center;
+        font-family: "Philosopher", sans-serif;
+        color: #230c81;
+        font-size: medium;
+        height: 600px;
+    }
+    .skills ul {
+        font-size: large;
+    }
+    .cvcontainer {
+        display: none;
+    }
+    .cvcontainer1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1151px) {
+    .myedu,
+    .myexp,
+    .myinfo {
+        margin-top: 2%;
+        width: 30vw;
+        font-size: medium;
+    }
+    .myinfo h1 {
+        font-size: x-large;
+    }
+    .myedu p {
+        font-size: 12px;
+    }
+    .table p {
+        font-size: 19px;
+    }
+    .myinfo img {
+        margin-top: 30px;
+        height: 150px;
+        border-radius: 100px;
+    }
+    .tablee p {
+        font-size: 17px;
+    }
+    .information,
+    .education,
+    .experience {
+        margin-top: 2.5%;
+        text-align: center;
+        color: #230c81;
+        font-size: 16px;
+        height: 80vw;
+    }
+    .skills ul {
+        font-size: 18px;
+        padding: 1.5px;
+        margin: 1.8vw;
+        align-self: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .cvcontainer {
+        display: flex;
+        justify-content: center;
+    }
+    .cvcontainer1 {
+        display: none;
+    }
+}
+
+
+/* computer laptops */

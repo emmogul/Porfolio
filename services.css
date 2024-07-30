@@ -1,0 +1,212 @@
+.services {
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.services h1 {
+    font-family: "Philosopher", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #230c81;
+}
+
+.content {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.box {
+    height: auto;
+    border: 2px solid #230c81;
+    margin: 40px;
+    padding: 25px 50px;
+    border-radius: 20px 60px;
+    font-size: x-large;
+    font-family: "Philosopher", sans-serif;
+    box-shadow: inset 1px 1px 20px 1px rgba(45, 19, 97, 0.6);
+}
+
+.box ul {
+    color: #230c81;
+    text-align: center;
+}
+
+.box li {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 275px) and (max-width: 425px) {
+    .services {
+        margin: 0px;
+        margin-top: 10%;
+    }
+    .services h1 {
+        font-size: larger;
+        margin-bottom: 0px;
+    }
+    .content {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        padding: 4vw;
+    }
+    .box {
+        height: auto;
+        border: 2px solid #230c81;
+        margin: 4vw 0vw;
+        padding: 7vw 5vw;
+        border-radius: 20px 60px;
+        font-size: x-large;
+        font-family: "Philosopher", sans-serif;
+        box-shadow: inset 1px 1px 20px 1px rgba(45, 19, 97, 0.6);
+    }
+    .box ul {
+        color: #230c81;
+        text-align: left;
+    }
+    .box li {
+        font-size: large;
+        margin-bottom: 5vw;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 525px) {
+    .services {
+        margin: 0px;
+        margin-top: 10%;
+    }
+    .services h1 {
+        font-size: x-large;
+        margin-bottom: 0px;
+    }
+    .content {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        padding: 4vw;
+    }
+    .box {
+        height: auto;
+        border: 2px solid #230c81;
+        margin: 4vw 5vw;
+        padding: 7vw 5vw;
+        border-radius: 20px 60px;
+        font-size: x-large;
+        font-family: "Philosopher", sans-serif;
+        box-shadow: inset 1px 1px 20px 1px rgba(45, 19, 97, 0.6);
+    }
+    .box ul {
+        color: #230c81;
+        text-align: left;
+    }
+    .box li {
+        font-size: large;
+        margin-bottom: 5vw;
+    }
+}
+
+@media screen and (min-width: 525px) and (max-width: 725px) {
+    .services {
+        margin: 0px;
+        margin-top: 10%;
+    }
+    .services h1 {
+        font-size: 28px;
+        margin-bottom: 0px;
+    }
+    .content {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        padding: 4vw;
+    }
+    .box {
+        height: auto;
+        border: 2px solid #230c81;
+        margin: 4vw 10vw;
+        padding: 7vw 7vw;
+        border-radius: 20px 60px;
+        font-size: 25px;
+        font-family: "Philosopher", sans-serif;
+        box-shadow: inset 1px 1px 20px 1px rgba(45, 19, 97, 0.6);
+    }
+    .box ul {
+        color: #230c81;
+        text-align: left;
+    }
+    .box li {
+        font-size: 20px;
+        margin-bottom: 5vw;
+    }
+}
+
+@media screen and (min-width: 725px) and (max-width: 945px) {
+    .services h1 {
+        margin-top: 7%;
+        font-size: 3.5vw;
+    }
+    .content {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 5px;
+    }
+    .box {
+        height: auto;
+        border: 2px solid #230c81;
+        margin: 3vw 1vw;
+        padding: 3vw 5vw;
+        border-radius: 20px 60px;
+        font-size: 3.2vw;
+        font-family: "Philosopher", sans-serif;
+        box-shadow: inset 1px 1px 20px 1px rgba(45, 19, 97, 0.6);
+    }
+    .box ul {
+        color: #230c81;
+        text-align: left;
+    }
+    .box li {
+        font-size: 2.3vw;
+        margin-bottom: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 945px) and (max-width: 1045px) {
+    .services h1 {
+        margin-top: 6%;
+        font-size: 3vw;
+    }
+    .content {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 2px;
+    }
+    .box {
+        height: auto;
+        border: 2px solid #230c81;
+        margin: 1vw 1vw;
+        padding: 3vw 5vw;
+        border-radius: 20px 60px;
+        font-size: 3vw;
+        font-family: "Philosopher", sans-serif;
+        box-shadow: inset 1px 1px 20px 1px rgba(45, 19, 97, 0.6);
+    }
+    .box ul {
+        color: #230c81;
+        text-align: center;
+    }
+    .box li {
+        font-size: 2vw;
+        margin-bottom: 2.5vw;
+    }
+}
